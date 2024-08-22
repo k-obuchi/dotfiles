@@ -1,0 +1,18 @@
+#alias ls="ls -F --color=auto"
+alias ls="ls -F"
+alias la="ls -AF"
+alias ll="ls -lF"
+alias lla="ls -lAF"
+alias lt="ls --full-time -F"
+alias lct="locate"
+alias md="mkdir"
+alias rd="rmdir"
+alias ff="find ./ -name"
+alias eman="LANG=en man"
+alias cls="clear"
+alias dc="docker compose"
+alias updatedb="sudo /usr/libexec/locate.updatedb"
+
+# atcoder
+alias ojp="oj t -c 'python main.py' -d tests"
+alias accsp="acc s main.py -- -l 5055"
