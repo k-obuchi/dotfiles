@@ -14,5 +14,5 @@ alias dc="docker compose"
 alias updatedb="sudo /usr/libexec/locate.updatedb"
 
 # atcoder
-alias ojp="oj t -c 'python main.py' -d tests"
+alias ojp="oj t -c 'python main.py' -d tests -N"
 alias accsp="acc s main.py -- -l 5055"
